@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dialogflow Messenger Example</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      /* Replace the URL below with your own image link or path */
+      background-image: url('https://img.freepik.com/premium-photo/robot-hominoid-use-mobile-phone-tablet-concept-ai-thinking-brain_31965-240521.jpg');
+      background-size: cover;       /* make it cover the whole page */
+      background-position: center;  /* center the image */
+      background-repeat: no-repeat; /* no tile repeat */
+      height: 100vh;                /* full viewport height */
+      overflow: hidden;             /* optional, hides scrollbars */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Dialogflow Messenger -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="AIVA"
+    agent-id="11f32b15-7f92-41c4-95ca-3ea8d3a7df3b"
+    language-code="en"
+  ></df-messenger>
+
+</body>
+</html>
